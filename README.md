@@ -17,13 +17,13 @@
 ## Starting the server side
 1. cd to server folder
 2. To install all the dependencies run `npm install`
-3. To start the server run `npm start dev`
->The server will start at (http://localhost:4000/graphql)
+3. To start the server run `npm run startdev `
+>The server will start at (http://localhost:8080/graphiql)
 
 ## Starting the client side
 1. cd to cleint folder
 2. To install all the dependencies run `npm install`
-3. To start the client side server run `npm run dev`
->The server will start at (http://localhost:8080)
+3. To start the client side server run `npm start` or `npm start dev`
+>The server will start at (http://localhost:3000/posts)
 
 >initially you will not see any item in the todo list app as the database is empty. You can add items by yourself to the todo list app.
